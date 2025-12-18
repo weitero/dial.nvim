@@ -1,8 +1,8 @@
 -- define type annotations
 -- (See: https://github.com/sumneko/lua-language-server/wiki/Annotations)
 
----@alias direction '"increment"' | '"decrement"'
----@alias mode '"normal"' | '"gnormal"' | '"visual"' | '"gvisual"'
+---@alias direction "increment" | "decrement"
+---@alias mode "normal" | "gnormal" | "visual" | "gvisual"
 ---@alias textrange {from: integer, to: integer}
 ---@alias addresult {text?: string, cursor?: integer}
 
